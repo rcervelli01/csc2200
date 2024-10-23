@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<title>Example</title>
+<style>
+    .container {
+        /*Has parent container*/
+        display: flex;
+    }
+    .red {
+        /*children of parent*/
+        background: orangered;
+        display: flex;
+        flex-direction: column;
+    }
+    .green {
+        /*children of parent*/
+        background: yellowgreen;
+    }
+    .blue {
+        /*children of parent*/
+        background: steelblue;
+    }
+    /*any div tag within a class of container*/
+    /*if it was .container.item = class within a class*/
+    .container div {
+        /*percentage of 5% of entire screen width*/
+        font-size: 5vw;
+        /*half of parent, 16 px/2=8px*/
+        padding: .5em;
+        color: white;
+        /*flex grow shrink basis*/
+        flex: 1;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="red">1
+        <div class="green">1a</div>
+        <div class="blue">1b</div>
+    </div>
+    <div class="green">2</div>
+    <div class="blue">3</div>
+    <br>
+</div>
+<article>
+    ARTICLE for help: <a href="https://www.quackit.com/css/flexbox/tutorial/nested_flex_containers.cfm">Flex</a>
+</article>
+</body>
+</html>

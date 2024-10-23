@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function doSomeStuff() {
+        //     let x = "X99";
+        //     x = parseInt(x)+ 1;
+        //     console.log(`x=${x}`);
+        //     console.log(typeof x);
+        let x;
+        // x = "Happy"; //string
+        // x+= " and Sad";
+        // x = 3.14; //number
+        // x=[]; //array
+        // x={}; //object literal
+        x="blah"/100; //Nan which is type number
+        checkType(x);
+        }
+        function checkType(n) {
+            let msg = `Input is of type ${typeof n}`;
+            let resObj = document.getElementById("results");
+            // let resObj = document.getElementById("resultsxxxx"); //makes res object nullbc id does not exist
+            // console.log(typeof resObj);
+            // undefined bc n does not appear on left side of an expression
+            if(resObj === null){
+                alert("resObj is null")
+            }
+            if(isNaN(n)) {
+                alert("is NaN")
+            }
+            if(n===null){
+                alert("undefined is there");
+            }
+            if(n === undefined) {
+                alert("undefined");
+            }
+            resObj.innerHTML = msg;
+        }
+    </script>
+</head>
+<body>
+<!--on click is an example of an event-->
+<button type="button" onClick="doSomeStuff()"> Click me </button>
+<div id="results">  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid 1</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        /*grid-template-columns: repeat(3, 1fr);*/
+        /*rid-template-columns: 1.5fr 2fr 1fr;g*/
+        max-width: 200px;
+        background-color: #1abc9c;
+      }
+      .grid-container > div {
+        background-color: yellowgreen;
+        text-align: center;
+        border: 1px solid black;
+        padding: 20px;
+
+      }
+    </style>
+</head>
+<body>
+<h2>Hello world</h2>
+<div class="grid-container">
+    <div>one</div>
+    <div>two</div>
+    <div>three</div>
+    <div>four</div>
+    <div>five</div>
+    <div>six</div>
+</div>
+
+</body>
+</html>

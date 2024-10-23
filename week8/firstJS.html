@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<script>
+    function doAge() {
+        // alert("Did it work?")
+        let userAge = document.getElementById("uAge").value;
+        // alert(`Age:${userAge}`); //new way
+        // alert("Age:" +userAge); //old way
+        console.log(`Age is:${userAge}`);
+        console.log(`Age Type:${typeof userAge}`); //tells what if it is a str,number,
+        let age = parseInt(userAge);
+        console.log(`Age Type:${typeof age}`);
+        console.log(`Age Type:${age}`);
+        if (isNaN(age)){
+            // console.log("Well that didnt work")
+            let res = document.getElementById("results");
+            res.innerHTML = `<h2> This is no good ${userAge} </h2>`;
+        }
+        else {
+            // console.log( "We are OK");
+            let msg = "<ol>";
+            if (age === "happy") {
+                msg += " <li> idc </li>";
+            }
+            if ( age === 15 ){
+                msg += " <li> You can get a learners permit</li>";
+            }
+            if ( age >= 16 ){
+                msg += " <li> You can drive</li>";
+            }
+            else if (age <= 0) {
+                msg+= "<li> You are not born yet </li>";
+            }
+            msg += "</ol>"
+            let res = document.getElementById("results");
+            res.innerHTML = msg;
+        }
+    }
+</script>
+<body>
+    <h2> Show your rights </h2>
+    <form>
+        Age:<input type="text" name="age" id="uAge">
+        <button type="button" onClick="doAge()"> Click to Start </button>
+    </form>
+    <div id="results"> Your results here </div>
+</body>
+</html>
