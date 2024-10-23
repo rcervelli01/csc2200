@@ -1,0 +1,116 @@
+ html {
+     background-color: #813772;
+     font-size: 20px;
+     margin: 0px;
+     padding: 0px;
+     border: 0px;
+ }
+header {
+    background-color: #000000;
+ }
+ ul.nav {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+ .navLi {
+     float: left;
+ }
+ li#name {
+     color: white;
+     font-size: 1.3rem;
+     padding: 5px;
+     margin: 5px;
+ }
+ .navLi a:link {
+     color: #000000;
+     text-decoration: none;
+     display: block;
+     background-color: #dfe3ee;
+     width: 200px;
+     font-weight: bold;
+     border: 1px solid #000000;
+     padding: 5px;
+     margin-top: 7px;
+     margin-left: 15px;
+     margin-right: -4px;
+ }
+ .navLi a:hover {
+     text-transform: uppercase;
+ }
+ .navLi a:active span {
+     background-color: yellow;
+ }
+main {
+    position: relative;
+    left: 20px;
+    height: 460px;
+    width: 80%;
+}
+.title {
+    font-size: 1.3rem;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#leftSide {
+    background-color: #B82601;
+    position: absolute;
+    width: 48%;
+    height: 350px;
+}
+#rightSide {
+    background-color: #B82601;
+    position: absolute;
+    width: 48%;
+    height: 350px;
+    left: 50%;
+}
+.inside {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 15px 10px 15px;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    font-size: .8rem;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    width: 97%;
+}
+a#hw:link {
+    color: white;
+}
+img {
+    width: 70px;
+    height: 100px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+main#movie {
+    background-color: #B82601;
+    width: 85%;
+    height: 430px;
+    padding: 5px 0px 0px 5px;
+}
+article {
+    text-align: center;
+    left: 5%;
+    align-items: center;
+    display: inline-block;
+}
+div#box {
+    border: 1px solid #000000;
+    margin: 5px 15px 10px 15px;
+    padding: 5px;
+}
+div.description {
+    padding-top: 35px;
+    /*font-size: .9rem;*/
+}

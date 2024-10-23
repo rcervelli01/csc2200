@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 3 Rachel Cervelli</title>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body class="grid">
+<!--GRID PAGE-->
+<div id="main-container">
+    <header>
+        <img id="mario-header" src="imgs/mario.png" alt="mario pizza">
+        <h1> Marios Pizza </h1>
+    </header>
+    <nav class="home">
+        <ul>
+            <li> <a class="nav-link active" href="home.html"> Home </a> </li>
+            <li> <a href="about.html">  About </a> </li>
+        </ul>
+    </nav>
+    <main class="grid">
+        <h1> Tell us about you </h1>
+        <form class="home-form" action=" ">
+            <label for="name" class="name grid1"> Name: </label>
+            <input class="grid1" id="name" type="text">
+            <label for="age" class="age grid1"> Age: </label>
+            <input class="grid1" id="age" type="text">
+            <label for="fav-topping" class="fav-topping grid1"> Favorite Topping: </label>
+            <select class="grid1" id="fav-topping">
+                <option value="1"> Extra Cheese </option>
+                <option value="2"> Sausage </option>
+                <option value="3"> Pepperoni </option>
+                <option value="4"> Pineapple </option>
+                <option value="5"> Peppers </option>
+            </select>
+            <label class="fav-games grid1"> Favorite Games</label> <br>
+            <label class="grid1" for="kart"> Mario Kart: </label>
+            <input class="grid1" type="checkbox" id="kart">
+            <label class="grid1" for="party"> Mario Party: </label>
+            <input class="grid1" type="checkbox" id="party">
+            <label class="grid1" for="smb"> Super Mario Bros: </label>
+            <input class="grid1" type="checkbox" id="smb">
+
+            <button class="grid1" type='button'> Submit </button>
+        </form>
+    </main>
+    <div id="right">
+        <img id="mario" src="imgs/marioGo.jpg" alt="mario">
+    </div>
+</div>
+</body>
+</html>

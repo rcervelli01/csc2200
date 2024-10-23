@@ -1,0 +1,39 @@
+html {
+    font-size: 20px;
+    margin: 0px;
+}
+div#box1 {
+    background-color: deeppink;
+    width: 50%;
+    height: 150px;
+    font-size: 1.2rem;
+    /*border: 1px solid black;*/
+    border-top: 1px solid blue;
+    border-bottom: 4px solid green;
+    /*padding: 10px;*/
+    /*TRBL*/
+    /*padding: 10px 4px 5px 20px;*/
+    /*margin-left: 100px;
+    margin-top: 100px;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#box2 {
+    background-color: chartreuse;
+    width: 50%;
+    /*margin-top: 50px;*/
+    border: 1px solid black;
+    /*padding: 10px;*/
+    position: absolute;
+    top: 160px;
+    left: 0px;
+}
+#boxtitle {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#box2content {
+    padding: 20px;
+}

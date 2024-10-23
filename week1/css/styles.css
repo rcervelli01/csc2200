@@ -1,0 +1,54 @@
+body{
+    background-color: #f8d7da;
+}
+header {
+    background-color: #d63384;
+    height: 15%;
+}
+img {
+    width: 10%;
+    height: 10%;
+    padding-top:2px;
+    padding-left:2px;
+}
+img#promo {
+    width:50%;
+    height:50%;
+}
+img#promo2{
+    width:20%;
+    height:20%;
+}
+img#edu{
+    width:20%;
+    height:20%;
+}
+img#educ{
+    width: 30%;
+    height:30%;
+}
+img#hobbit{
+    width:20%;
+    height:20%;
+}
+h3 {
+    background-color: #f8d7da;
+    display: inline;
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+    top: -15px;
+}
+table {
+    border: 1px solid black;
+    
+    /*border: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-collapse: collapse;*/
+}
+td,th {
+    border: solid 1px #000;
+    text-align: center;
+}

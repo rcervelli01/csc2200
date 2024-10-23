@@ -1,0 +1,148 @@
+html {
+    font-size: 20px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*GRID*/
+body.grid {
+    background-color: #00ABE4;
+}
+#main-container {
+    display: grid;
+    grid-template-areas:
+            'header header header'
+            'nav nav nav'
+            'main main right';
+    gap: 1px;
+    /*text-align: center;*/
+    grid-template-columns: 40% 40% 21%;
+    grid-template-rows: auto auto 113%;
+    /*grid-template-rows: auto 2fr;*/
+    /*padding: 10px;*/
+    /*min-height: 100vh;*/
+    /*grid-template-columns: auto auto auto auto auto auto;*/
+    /*grid-template-rows: auto auto 500px;*/
+}
+header {
+    grid-area: header;
+    background-color: aqua;
+    text-align: center;
+}
+#mario-header {
+    float: left;
+    width: 6%;
+    padding: 10px;
+}
+nav.home {
+    grid-area: nav;
+    background-color: aqua;
+    text-align: center;
+}
+main.grid {
+    grid-area: main;
+    background-color: aqua;
+    text-align: center;
+    grid-template-columns: 500px 1fr;
+
+}
+#right {
+    grid-area: right;
+    background-color: aqua;
+    /*display: flex;*/
+    justify-content: center;
+    justify-items: center;
+}
+#mario {
+    /*display: flex;*/
+    width: 40%;
+    padding: 70px 0px 0px 80px;
+    /*object-fit: cover;*/
+}
+ul {
+    list-style-type: none;
+    align-items: center;
+}
+a:link {
+    text-decoration: none;
+    float: left;
+    font-size: 1.2rem;
+    padding: 0px 20px 15px 0px;
+}
+a.active {
+    font-weight: bold;
+}
+form.home-form {
+    display: grid;
+    grid-gap: 16px;
+    border: 1px solid black;
+    padding: 0px 20px 0px 20px;
+    grid-template-columns: auto 1fr;
+}
+label.grid1 {
+    /*grid-column: 1 / 2;*/
+    /*padding: 2em 2em 2em 0;*/
+    display: inline-block;
+    width: 240px;
+    text-align: right;
+}
+input.grid1 {
+    width: 400px;
+}
+select.grid1 {
+    width:408px;
+}
+input.grid1[type="checkbox"] {
+    align-items: left;
+}
+.fav-games label{
+    margin-left: 2000px;
+    /*text-indent: 20px;*/
+}
+button.grid1 {
+    /*margin-left: 250px;*/
+    width: 50%;
+    background-color: yellow;
+}
+
+/*BOOTSTRAP*/
+body.bootstrap {
+    background-color: aqua;
+}
+.navback {
+    background-color: #00ABE4;
+}
+.brand-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+#mariopizza2 {
+    width: 20%;
+    padding-top: 5px;
+}
+form.about {
+    border: 1px solid black;
+    /*width: 80%*/
+}
+#theName, #Age {
+    width: 100%;
+}
+main.bootstrap {
+    margin: 50px 0px 0px 15px;
+}
+h2 {
+    margin-left: 15px;
+}
+#mario2 {
+    width: 35%;
+}
+div.title {
+    font-weight: bold;
+}
+footer {
+    background-color: #00ABE4;
+    /*height: 18vh;*/
+    /*padding: 40px;*/
+    color: black;
+}

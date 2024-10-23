@@ -1,0 +1,92 @@
+/*DEFAULT FONT SIZE:*/
+html {
+    font-size: 24px;
+}
+/*any ul with class nav*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*float shoves item all the way to left that it can, out of normal flow*/
+li.navLi {
+    float: left;
+}
+
+/*psuedo class*/
+/*link portion of an a tag*/
+a:link {
+    display: block;
+    width: 120px;
+    text-decoration: none;
+    background-color: hotpink;
+    font-weight: bold;
+    color: black;
+    padding: 11px;
+    border: solid black 1px;
+    margin: 5px;
+}
+/*hover mouse over*/
+a:hover {
+    background-color: aqua;
+    text-transform: uppercase;
+}
+/*actively clicking*/
+a:active {
+    background-color: red;
+}
+/*when you go back to page from visiting*/
+a:visited {
+    background-color: green;
+}
+
+/*creating a box*/
+/*block level tag, width whole screen, can change in block*/
+.mybox {
+    background-color: darkcyan;
+    width: 50%;
+    height: 120px;
+    border: dotted crimson 5px;
+    margin-left: 20px;
+    padding: 20px 0px 0px 20px;
+    /*padding-left: 10px;
+    padding-top: 20px;*/
+
+}
+
+/*
+!*ROOT*!
+!*50% of font size: (bigger than 1-bigger, smaller than 1-smaller)*!
+p {
+    font-size: .5rem;
+}
+!*relative to parent (root)*!
+div {
+    font-size: 40px;
+}
+!*inside div (parent is div, relative to div)*!
+!*id tag*!
+#inside {
+    font-size: .5em;
+}
+!*class tag*!
+.mylab1 {
+    font-size: 1rem;
+}
+!*div tag w/ class = blah*!
+div.blah {
+
+}
+!*Div tag with id = blah*!
+div#blah {
+
+}
+!*matching any p tag within a div tag*!
+div > p {
+
+}
+!*match any font size for h1, h2, p*!
+h1, h2, p {
+    font-size: 1rem;
+}*/
